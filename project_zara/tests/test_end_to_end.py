@@ -4,6 +4,7 @@ from project_zara.pages.product_page import ProductPage
 from project_zara.pages.search_page import SearchPage
 class TestZaraOnlineStore():
 
+
     def test_searching_product_and_adding_to_cart(self, setup_zara): #testing E2E process of searching a product and adding it to the cart
         page = setup_zara
         home_page = HomePage(page)
